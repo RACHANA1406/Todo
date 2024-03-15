@@ -1,12 +1,8 @@
 package com.example.todo.service;
 
-import org.apache.el.stream.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-
-//import com.example.todo.repository.TodoRepo;
 import com.example.todo.repository.TodoRepository;
-
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
