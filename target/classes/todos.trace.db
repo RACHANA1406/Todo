@@ -1,0 +1,15 @@
+2024-03-14 14:20:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM TODOLIST WHERE todo=?[*], status=?, priority=?"; SQL statement:
+SELECT * FROM TODOLIST WHERE todo=?, status=?, priority=? [42000-214]
+2024-03-14 14:24:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+SELECT * FROM TODOLIST [42104-214]
+2024-03-14 14:27:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+SELECT * FROM TODOLIST [42104-214]
+2024-03-14 16:10:23 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" not found (this database is empty); SQL statement:
+select * from TODOS [42104-214]
+2024-03-14 17:33:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM TODOLIST WHERE todo=?[*], status=?, priority=?"; SQL statement:
+SELECT * FROM TODOLIST WHERE todo=?, status=?, priority=? [42000-214]
