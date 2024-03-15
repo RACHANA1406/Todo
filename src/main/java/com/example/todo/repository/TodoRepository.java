@@ -1,16 +1,18 @@
 package com.example.todo.repository;
 
-import com.example.todo.model.Todo;
 import java.util.*;
 
+import com.example.todo.model.Todo;
+
 public interface TodoRepository {
+
     ArrayList<Todo> getTodos();
+
+    Todo getTodoById(int todoId);
 
     Todo addTodo(Todo todo);
 
-    Todo updateTodo(int id, Todo todo);
+    Todo updateTodo(int todoId, Todo todo);
 
-    Todo getById(int id);
-
-    void deleteTodo(int id);
+    void deleteTodo(int todoId);
 }
